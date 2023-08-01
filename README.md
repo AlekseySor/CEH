@@ -1,5 +1,5 @@
 # CEH
-snow -C -p "password" file.txt
+snow.exe -C -p "password" file.txt
 
 To scan the live Host
 nmap -sP x.x.x.1/24                 

@@ -16,4 +16,7 @@ nmap -Pn -A x.x.x.1/24 -vv --open
 
 nmap -sC -sV -p- -A -v -T4 192.168.1.*
 
+
+nmap -sU -p 161 --script=snmp-processes ip
+
 hydra -P /usr/share/wordlist/metasploit/common_users.txt -U /usr/share/wordlist/metasploit/unux.password.txt 192.168.0.0 
